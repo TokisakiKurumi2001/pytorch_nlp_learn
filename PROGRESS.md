@@ -2,7 +2,7 @@
 
 ## Compromise NMT
 
-[Architecture of Compromise_NMT](./image/compromise_NMT.png)
+![Architecture of Compromise_NMT](./image/compromise_NMT.png)
 
 | Model | BLEU En-De | BLEU En-En |
 | -------- | -------- | -------- |
