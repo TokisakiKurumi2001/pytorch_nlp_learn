@@ -22,6 +22,8 @@
 
 ## BanaBERT
 
+**Repo**: [x_lingual_cl](https://github.com/TokisakiKurumi2001/x_lingual_cl)
+
 ### Text classification
 
 **Dataset**: Bana text classification
