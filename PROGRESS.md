@@ -32,5 +32,6 @@
 | ----- | -------------- | ------------- | ------------------- |
 | [GRU](https://github.com/TokisakiKurumi2001/rnn_text_classification) | 91% | 68% | 78% |
 | [BanaBERT](https://github.com/TokisakiKurumi2001/banabert_cls) | 85% | 85% | 85% |
+| [TextCNN](https://github.com/TokisakiKurumi2001/cnn_text_classification) | 79% | 76% | 75% |
 | BanaBERT-pretrained + OT + CL | 85% | 85% | 85% |
-| BanaBERT + OT + CL | 98% | 84% | 84% |
+| **BanaBERT + OT + CL** | 98% | **84%** | 84% |
