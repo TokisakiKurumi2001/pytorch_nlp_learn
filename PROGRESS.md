@@ -24,6 +24,8 @@
 
 **Repo**: [x_lingual_cl](https://github.com/TokisakiKurumi2001/x_lingual_cl)
 
+![Architecture of X Lingual](./image/x_lingual_cl.png)
+
 ### Text classification
 
 **Dataset**: Bana text classification
