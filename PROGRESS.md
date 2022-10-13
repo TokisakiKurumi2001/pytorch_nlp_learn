@@ -33,7 +33,11 @@
 | Model | Train Accuracy | Test Accuracy | Validation Accuracy |
 | ----- | -------------- | ------------- | ------------------- |
 | [GRU](https://github.com/TokisakiKurumi2001/rnn_text_classification) | 91% | 68% | 78% |
-| [BanaBERT](https://github.com/TokisakiKurumi2001/banabert_cls) | 99% | **84%** | 85% |
+| [BanaBERT](https://github.com/TokisakiKurumi2001/banabert_cls) | 99% | 84% | 85% |
 | [TextCNN](https://github.com/TokisakiKurumi2001/cnn_text_classification) | 79% | 76% | 75% |
 | BanaBERT-pretrained + OT + CL | 97% | 80% | 81% |
-| **BanaBERT + OT + CL** | 98% | **84%** | 84% |
+| BanaBERT + OT + CL | 98% | 84% | 84% |
+| BanaBERT + OT + CL + Mean 4 |  99% | 85% | 84% |
+| **BanaBERT + OT + CL + Sum 4** |  99% | **86%** |  85% |
+| BanaBERT-pretrained + OT + CL + Sum 4 | 97% | 76% | 78% |
+| BanaBERT-pretrained + OT + CL + Mean 4 | 98% | 80% | 80% |
