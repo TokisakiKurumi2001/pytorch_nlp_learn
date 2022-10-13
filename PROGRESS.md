@@ -41,3 +41,5 @@
 | **BanaBERT + OT + CL + Sum 4** |  99% | **86%** |  85% |
 | BanaBERT-pretrained + OT + CL + Sum 4 | 97% | 76% | 78% |
 | BanaBERT-pretrained + OT + CL + Mean 4 | 98% | 80% | 80% |
+| **BanaBERT + Sum 4** | 99% | **86%** | 88% |
+| BanaBERT + Mean 4 | 99% | 83% | 86% |
