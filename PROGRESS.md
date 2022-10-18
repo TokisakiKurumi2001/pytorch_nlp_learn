@@ -43,3 +43,13 @@
 | BanaBERT-pretrained + OT + CL + Mean 4 | 98% | 80% | 80% |
 | **BanaBERT + Sum 4** | 99% | **86%** | 88% |
 | BanaBERT + Mean 4 | 99% | 83% | 86% |
+
+## TeXid
+
+**Repo**: [TeXid](https://github.com/TokisakiKurumi2001/tense_identification)
+
+This is a sequence classification. Tasks is the same with BanaBERT_cls. However, I have upgraded the code in order to take advantages of Huggingface API to export model and load model to use model with ease.
+
+| Model | Train Accuracy | Test Accuracy | Validation Accuracy |
+| ----- | -------------- | ------------- | ------------------- |
+| **RobertaTeXid** | 99% | **100%** | 99% |
