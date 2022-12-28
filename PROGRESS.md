@@ -48,8 +48,76 @@
 
 **Repo**: [TeXid](https://github.com/TokisakiKurumi2001/tense_identification)
 
-This is a sequence classification. Tasks is the same with BanaBERT_cls. However, I have upgraded the code in order to take advantages of Huggingface API to export model and load model to use model with ease.
+```bash
+pip install TeXid
+```
+
+This is a sequence classification. Task is the same with BanaBERT_cls. However, I have upgraded the code in order to take advantages of Huggingface API to export model and load model to use model with ease.
 
 | Model | Train Accuracy | Test Accuracy | Validation Accuracy |
 | ----- | -------------- | ------------- | ------------------- |
 | **RobertaTeXid** | 99% | **100%** | 99% |
+
+## Compromise-marian
+
+**Repo**: [marian](https://github.com/TokisakiKurumi2001/marian)
+
+Try to publish a library
+```bash
+pip install compromise-marian
+```
+
+![Architecture of compromise MarianMT](./image/compromise_marian.png)
+
+This is a custom seq2seq transformer model. The task is to translate English sentence to France and reconstruct the original English as well. Follow the Marian Model from Huggingface library, I create a same NMT-OT architecture but with no optimal transport loss.
+
+| Model | BLEU score | Self-BLEU score |
+| ----- | ---------- | --------------- |
+| Compromise-marian | 0.0 | 0.0 |
+
+## PhrExt
+
+**Repo**: [phrase_extract](https://github.com/TokisakiKurumi2001/phrase_extract)
+
+Try to publish a library
+```bash
+pip install PhrExt
+```
+
+![Architecture of PhrExt](./image/phrext.png)
+
+This is a normal Sequence tagging model using RoBERTa from huggingface. I make a little configuration to futher customize the Sequence tagging model. The original task is word chunking, the dataset used in this experiment is [CoNLL-2003](https://huggingface.co/datasets/conll2003). After the chunking is completed, a postprocess will collect the chunk and merge them into phrase (Noun phrase, verb phrase)
+
+```text
+Input: PennyLane went to the school
+
+Output: [{'Noun Phrase': 'PennyLane'}, {'Verb Phrase': 'went'}, {'Preposition': 'to'}, {'Noun Phrase': 'the school'}]
+```
+
+| Model | Recall | Precision | F1 | Accuracy |
+| ----- | ------ | --------- | -- | -------- |
+| PhrExt | 82.05 | 83.44 | 82.74 | 93.12 |
+
+## MiSeCom
+
+**Repo**: [misecom](https://github.com/TokisakiKurumi2001/missing_sentence_component)
+
+Try to publish a library
+```bash
+pip install MiSeCom
+```
+
+![Architecture of MiSeCom](./image/misecom.png)
+
+Task: **Missing Sentence Component**. Given an English sentence, determine if whether it miss any components.
+
+```text
+Input: I education company.
+Output: I education company <ma> <mp> <mv>
+```
+
+The above sentence is missing an article, a preposition and a verb.
+
+| Model | ROC_AUC |
+| ----- | ------- |
+| MiSeCom | 98.59 |
