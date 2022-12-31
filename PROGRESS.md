@@ -67,13 +67,13 @@ Try to publish a library
 pip install compromise-marian
 ```
 
-![Architecture of compromise MarianMT](./image/compromise_marian.png)
+![Architecture of compromise MarianMT](./image/compromise-marian.png)
 
 This is a custom seq2seq transformer model. The task is to translate English sentence to France and reconstruct the original English as well. Follow the Marian Model from Huggingface library, I create a same NMT-OT architecture but with no optimal transport loss.
 
 | Model | BLEU score | Self-BLEU score |
 | ----- | ---------- | --------------- |
-| Compromise-marian | 0.0 | 0.0 |
+| Compromise-marian | 22.28 | 37.36 |
 
 ## PhrExt
 
@@ -83,8 +83,6 @@ Try to publish a library
 ```bash
 pip install PhrExt
 ```
-
-![Architecture of PhrExt](./image/phrext.png)
 
 This is a normal Sequence tagging model using RoBERTa from huggingface. I make a little configuration to futher customize the Sequence tagging model. The original task is word chunking, the dataset used in this experiment is [CoNLL-2003](https://huggingface.co/datasets/conll2003). After the chunking is completed, a postprocess will collect the chunk and merge them into phrase (Noun phrase, verb phrase)
 
