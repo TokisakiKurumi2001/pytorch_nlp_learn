@@ -119,3 +119,24 @@ The above sentence is missing an article, a preposition and a verb.
 | Model | ROC_AUC |
 | ----- | ------- |
 | MiSeCom | 98.59 |
+
+## ReWord
+
+**Repo**: [ReWord](https://github.com/TokisakiKurumi2001/ReWord)
+
+
+Try to publish a library
+```bash
+pip install ReWord
+```
+
+Task: **Reorder Word In Sentence**: A modification of traditional sequence labelling, but now the number of labels is equal to the vocab size.
+
+```text
+Input: I education company <ma> <mp> <mv>
+Output: I <mv> <mp> <ma> education company
+```
+
+| Model | BLEU |
+| ----- | ------- |
+| ReWord | 94.83 |
