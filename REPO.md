@@ -14,3 +14,9 @@ Metrics include
 - TER
 
 [multi_eval](https://github.com/TokisakiKurumi2001/multi_eval)
+
+## Learning rate scheduler with PL
+
+Use to experiment the learning rate scheduler
+
+[lrs](https://github.com/TokisakiKurumi2001/LRS)
