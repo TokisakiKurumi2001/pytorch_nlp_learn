@@ -20,3 +20,9 @@ Metrics include
 Use to experiment the learning rate scheduler
 
 [lrs](https://github.com/TokisakiKurumi2001/LRS)
+
+## Helpful HF codes
+
+Store helpful codes for working with HF
+
+[hf_helper](https://github.com/TokisakiKurumi2001/hf_helper)
