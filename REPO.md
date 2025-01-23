@@ -26,3 +26,9 @@ Use to experiment the learning rate scheduler
 Store helpful codes for working with HF
 
 [hf_helper](https://github.com/TokisakiKurumi2001/hf_helper)
+
+## Language model evaluation
+
+A working LM-Eval Framework.
+
+[lm_eval]((https://github.com/TokisakiKurumi2001/lm_eval)
