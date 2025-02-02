@@ -1,6 +1,6 @@
 # Useful repositories
 
-Further work can relay on these repositories to save time and effort
+Further work can rely on these repositories to save time and effort
 
 ## Multiple evaluation metrics
 
