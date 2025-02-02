@@ -32,3 +32,12 @@ Store helpful codes for working with HF
 A working LM-Eval Framework.
 
 [lm_eval](https://github.com/TokisakiKurumi2001/lm_eval)
+
+## Record pip's dependency while using conda
+
+[record_pip](https://github.com/TokisakiKurumi2001/record_pip)
+
+Edit the `~/.bashrc`
+```bash
+alias rpip="python path/to/record.py"
+```
