@@ -23,7 +23,7 @@ Use to experiment the learning rate scheduler
 
 ## DeepSpeed Full Training
 
-This repo not only fine-tune the LLM with deepspeed (Zero-3) but also provide some estimation on the resources needed.
+This repo not only fine-tunes the LLM with deepspeed (Zero-3) but also provides some estimation on the resources needed.
 
 ```text
 For 1.5B, use zero3.json is enough. GPU: 4, RAM: 128GB, CPU: 20 cores
