@@ -21,6 +21,17 @@ Use to experiment the learning rate scheduler
 
 [lrs](https://github.com/TokisakiKurumi2001/LRS)
 
+## DeepSpeed Full Training
+
+This repo not only fine-tune the LLM with deepspeed (Zero-3) but also provide some estimation on the resources needed.
+
+```text
+For 1.5B, use zero3.json is enough. GPU: 4, RAM: 128GB, CPU: 20 cores
+For 7B, use zero3_offload.json to transfer both optimizer and model's parameter to CPU. GPU: 4, RAM: 256GB, CPU: 64 cores
+```
+
+[ds3](https://github.com/TokisakiKurumi2001/ds3)
+
 ## Helpful HF codes
 
 Store helpful codes for working with HF
