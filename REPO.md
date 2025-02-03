@@ -27,6 +27,10 @@ Store helpful codes for working with HF
 
 [hf_helper](https://github.com/TokisakiKurumi2001/hf_helper)
 
+## Importance scoring for layer, channel and weight of model
+
+[importance](https://github.com/TokisakiKurumi2001/importance)
+
 ## Language model evaluation
 
 A working LM-Eval Framework.
