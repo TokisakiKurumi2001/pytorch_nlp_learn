@@ -56,3 +56,9 @@ Edit the `~/.bashrc`
 ```bash
 alias rpip="python path/to/record.py"
 ```
+
+## Llama factory based repo
+
+Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features that supports training with litte modifications, just changing the data path or creating custom trainer.
+
+[base_llm_factory](https://github.com/TokisakiKurumi2001/base-llm-factory)
