@@ -62,3 +62,13 @@ alias rpip="python path/to/record.py"
 Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features that supports training with litte modifications, just changing the data path or creating custom trainer.
 
 [base_llm_factory](https://github.com/TokisakiKurumi2001/base-llm-factory)
+
+## LLM-as-a-judge inference on clouds
+
+Perform LLM-as-a-Judge on the cloud using the HF-Inference.
+
+Support different features:
+1. Extend the main class to perform customed generation.
+2. Register new prompts
+
+[lite_llm_judges](https://github.com/TokisakiKurumi2001/judges)
