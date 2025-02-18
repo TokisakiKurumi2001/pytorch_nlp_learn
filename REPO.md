@@ -63,6 +63,13 @@ Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features 
 
 [base_llm_factory](https://github.com/TokisakiKurumi2001/base-llm-factory)
 
+<details>
+  <summary>Inventories</summary>
+  
+  - [OREO](https://github.com/TokisakiKurumi2001/oreo_llm_factory)
+
+</details>
+
 ## LLM-as-a-judge inference on clouds
 
 Perform LLM-as-a-Judge on the cloud using the HF-Inference.
