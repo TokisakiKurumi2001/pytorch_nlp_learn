@@ -79,3 +79,11 @@ Support different features:
 2. Register new prompts
 
 [lite_llm_judges](https://github.com/TokisakiKurumi2001/judges)
+
+## Test-time compute
+
+Computation shifted from training to testing.
+
+Using verifier/score/reward model to credit each token generated and choose the best answer based on scores.
+
+[gen_verify](https://github.com/TokisakiKurumi2001/gen_verify)
