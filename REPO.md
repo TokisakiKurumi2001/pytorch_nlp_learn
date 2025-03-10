@@ -67,6 +67,7 @@ Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features 
   <summary>Inventories</summary>
   
   - [OREO](https://github.com/TokisakiKurumi2001/oreo_llm_factory)
+  - [GKD & GRPO](https://github.com/TokisakiKurumi2001/grpo_llm_factory)
 
 </details>
 
