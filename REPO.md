@@ -89,3 +89,7 @@ Computation shifted from training to testing.
 Using verifier/score/reward model to credit each token generated and choose the best answer based on scores.
 
 [gen_verify](https://github.com/TokisakiKurumi2001/gen_verify)
+
+## Agent learning
+
+- [HF Agent](https://github.com/TokisakiKurumi2001/AgentHF)
