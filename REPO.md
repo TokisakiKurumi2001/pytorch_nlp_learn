@@ -94,3 +94,4 @@ Using verifier/score/reward model to credit each token generated and choose the 
 ## Agent learning
 
 - [HF Agent](https://github.com/TokisakiKurumi2001/AgentHF)
+- [Llama Index RAG Agent](https://github.com/TokisakiKurumi2001/Llama-Agent-RAG)
