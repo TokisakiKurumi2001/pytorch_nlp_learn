@@ -70,6 +70,7 @@ Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features 
   - [GKD & GRPO](https://github.com/TokisakiKurumi2001/grpo_llm_factory)
   - [MeZO](https://github.com/TokisakiKurumi2001/mezo_llm_factory)
   - [Tool call FT](https://github.com/TokisakiKurumi2001/tool_llm_factory)
+  - [Likra](https://github.com/TokisakiKurumi2001/likra_factory)
 
 </details>
 
