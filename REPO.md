@@ -113,3 +113,16 @@ AlphaEdit provides more methods and extends the MEMIT for sequential edits.
 - [hf_audio](https://github.com/TokisakiKurumi2001/audio_study)
 - [AudioSep](https://github.com/TokisakiKurumi2001/AudioSep)
 - [bird song classification](https://github.com/TokisakiKurumi2001/bird_song_class)
+
+## Unsloth quantized model training
+
+Use unsloth to perform training, including:
+- Pretrain
+- Instruction following
+- Format SFT
+- DPO
+- GRPO with vLLM
+
+Repo: [piath](https://github.com/TokisakiKurumi2001/piath.git)
+
+Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKurumi2001/vllm/blob/this_main/DOCS.md)
