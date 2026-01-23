@@ -72,6 +72,7 @@ Fine-tuning LoRA or Full, Deepspeed tp DDP. The Llama factory has many features 
   - [Tool call FT](https://github.com/TokisakiKurumi2001/tool_llm_factory)
   - [Likra](https://github.com/TokisakiKurumi2001/likra_factory)
   - [Text classification by GPT](https://github.com/TokisakiKurumi2001/llama_tc_wilds)
+  - [W2S RM OOD](https://github.com/TokisakiKurumi2001/w2s_reward_ood)
 
 </details>
 
