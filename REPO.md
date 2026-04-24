@@ -128,3 +128,8 @@ Use unsloth to perform training, including:
 Repo: [piath](https://github.com/TokisakiKurumi2001/piath.git)
 
 Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKurumi2001/vllm/blob/this_main/DOCS.md)
+
+## vLLM tips and tricks
+
+- Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKurumi2001/vllm/blob/this_main/DOCS.md)
+- vLLM host video understandings VLLM: [vllm_video_qa](https://github.com/TokisakiKurumi2001/vllm_video_qa)
