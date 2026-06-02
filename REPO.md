@@ -133,6 +133,7 @@ Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKur
 
 - Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKurumi2001/vllm/blob/this_main/DOCS.md)
 - vLLM host video understandings VLLM: [vllm_video_qa](https://github.com/TokisakiKurumi2001/vllm_video_qa)
+- vLLM host quantized models: [vllm4quantize](https://github.com/TokisakiKurumi2001/vllm4quantize)
 
 ## Extracted papers
 
