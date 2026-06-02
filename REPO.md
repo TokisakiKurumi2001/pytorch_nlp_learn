@@ -137,3 +137,7 @@ Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKur
 ## Extracted papers
 
 - Use LLM agents to extract materials from the paper: [llm_wiki](https://github.com/TokisakiKurumi2001/llm_wiki)
+
+## Quantize model
+
+- Use LLM-Compressor to quantize then serve with vLLM: [llm_quantize](https://github.com/TokisakiKurumi2001/llm_quantize)
