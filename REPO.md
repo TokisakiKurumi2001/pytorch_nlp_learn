@@ -48,6 +48,8 @@ A working LM-Eval Framework.
 
 [lm_eval](https://github.com/TokisakiKurumi2001/lm_eval)
 
+Advanced lm-eval used for vLLM endpoint focusing on certain tasks: [lm-eval-quant](https://github.com/TokisakiKurumi2001/lm-eval-quant)
+
 ## Record pip's dependency while using conda
 
 [record_pip](https://github.com/TokisakiKurumi2001/record_pip)
