@@ -144,3 +144,7 @@ Instruction on how to build your own vLLM: [vllm](https://github.com/TokisakiKur
 ## Quantize model
 
 - Use LLM-Compressor to quantize then serve with vLLM: [llm_quantize](https://github.com/TokisakiKurumi2001/llm_quantize)
+
+## Instruction following benchmarks
+
+- This benchmark is expected to categorize different aspect of instruction following [FollowBench](https://github.com/TokisakiKurumi2001/FollowBench)
